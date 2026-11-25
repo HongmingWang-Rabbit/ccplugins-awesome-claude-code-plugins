@@ -228,6 +228,7 @@
 
 
 ### MCP 服务器
+- [AI Chili](https://github.com/AI-Chili/aichili) — 官方 Claude Code 插件（含 `.claude-plugin/plugin.json`、`.claude-plugin/marketplace.json`、`SKILL.md`）与零依赖 MCP 服务器（`npx -y @aichili/mcp` 本地 stdio 与 `https://aichili.ai/mcp` 远程 Streamable HTTP），支持 AI 视频与数字人口播生成、免费 dry-run 精确报价与实时模型查询（`io.github.AI-Chili/aichili`）。可通过 `/plugin marketplace add AI-Chili/aichili` 安装，MIT 许可。
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
 
 ## 插件市场

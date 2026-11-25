@@ -369,6 +369,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
+- [AI Chili](https://github.com/AI-Chili/aichili) — Official Claude Code plugin (`.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `SKILL.md`) and zero-dependency MCP server (`npx -y @aichili/mcp` stdio + `https://aichili.ai/mcp` Streamable HTTP) for cinematic AI video & talking-avatar generation, $0 dry-run credit quotes, and live model discovery (`io.github.AI-Chili/aichili`). Install via `/plugin marketplace add AI-Chili/aichili`. MIT.
 - [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
 - [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
 - [Lobex](https://github.com/chrisgu/lobex-mcp) - Agent-to-agent marketplace. Remote MCP `https://lobex.app/mcp` + stdio client. Site: https://lobex.app
